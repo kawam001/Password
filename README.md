@@ -1,11 +1,13 @@
 # 03 JavaScript: Password Generator
 
-## Task Desciption
+
+## Task 
 
 This application enables employees to generate random passwords based on criteria that they’ve selected. 
 The app will run in a browser which utilizes HTML, CSS and JavaScript.
 
 The password can include UPPERCASE letter, lowercase letters, special characters, and numbers. Users have to enter "yes" or "no" (not case sensitive) to select type of characters to include in the password. If users select "no" in all cases, no password will be generated.
+
 
 ## User Story
 
@@ -42,12 +44,14 @@ The following image shows the web application's appearance and functionality:
 ![Head Screen](./Assets/password-mockup1.PNG)
 
 
+
 ![Password Length Prompt](./Assets/password-mockup2.PNG)
 
 
 ![UPPERCASE Prompt](./Assets/password-mockup3.PNG) 
 ![lowercase Prompt](./Assets/password-mockup4.PNG) 
 ![Special Characters Prompt](./Assets/password-mockup5a.PNG)
+
 ![Numbers Prompt](./Assets/password-mockup5.PNG) 
 ![Password Generated](./Assets/password-mockup6.PNG) 
 ![No Password Generated](./Assets/password-mockup7.PNG) 
