@@ -1,10 +1,11 @@
 # 03 JavaScript: Password Generator
 
-## Your Task
+## Task Desciption
 
-This week's Challenge requires you to modify starter code to create an application that enables employees to generate random passwords based on criteria that they’ve selected. This app will run in the browser and will feature dynamically updated HTML and CSS powered by JavaScript code that you write. It will have a clean and polished, responsive user interface that adapts to multiple screen sizes.
+This application enables employees to generate random passwords based on criteria that they’ve selected. 
+The app will run in a browser which utilizes HTML, CSS and JavaScript.
 
-The password can include special characters. If you’re unfamiliar with these, see this [list of password special characters](https://www.owasp.org/index.php/Password_special_characters) from the OWASP Foundation.
+The password can include UPPERCASE letter, lowercase letters, special characters, and numbers. Users have to enter "yes" or "no" (not case sensitive) to select type of characters to include in the password. If users select "no" in all cases, no password will be generated.
 
 ## User Story
 
@@ -38,63 +39,28 @@ THEN the password is either displayed in an alert or written to the page
 
 The following image shows the web application's appearance and functionality:
 
-![The Password Generator application displays a red button to "Generate Password".](./Assets/03-javascript-homework-demo.png)
+![Head Screen](./Assets/password-mockup1.PNG)
 
-## Grading Requirements
 
-> **Note**: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
->
-> * A repository that has no code
->
-> * A repository that includes a unique name but nothing else
->
-> * A repository that includes only a README file but nothing else
->
-> * A repository that only includes starter code
+![Password Length Prompt](./Assets/password-mockup2.PNG)
 
-This Challenge is graded based on the following criteria: 
 
-### Technical Acceptance Criteria: 40%
+![UPPERCASE Prompt](./Assets/password-mockup3.PNG) 
+![lowercase Prompt](./Assets/password-mockup4.PNG) 
+![Special Characters Prompt](./Assets/password-mockup5a.PNG)
+![Numbers Prompt](./Assets/password-mockup5.PNG) 
+![Password Generated](./Assets/password-mockup6.PNG) 
+![No Password Generated](./Assets/password-mockup7.PNG) 
 
-* Satisfies all of the preceding acceptance criteria.
 
-### Deployment: 32%
+## URLs
 
-* Application deployed at live URL.
 
-* Application loads with no errors.
+* URL of the deployed application:
 
-* Application GitHub URL submitted.
+https://kawam001.github.io/Password/
 
-* GitHub repository that contains application code.
+* URL of GitHub repository:
 
-### Application Quality: 15%
+https://github.com/kawam001/Password
 
-* Application user experience is intuitive and easy to navigate.
-
-* Application user interface style is clean and polished.
-
-* Application resembles the mock-up functionality provided in the Challenge instructions.
-
-### Repository Quality: 13%
-
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains quality readme file with description, screenshot, and link to deployed application.
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application.
-
-* The URL of the GitHub repository, with a unique name and a readme describing the project.
-
-- - -
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
